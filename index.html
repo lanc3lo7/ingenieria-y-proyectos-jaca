@@ -196,7 +196,25 @@ html{scroll-behavior:smooth}[id]{scroll-margin-top:95px}
 .footer-html-inner a{color:#fff;text-decoration:underline}#nosotros .about-topografia{object-fit:contain!important;width:301px!important;height:277px!important;max-width:301px!important}#nosotros .about-topografo{object-fit:contain!important;width:301px!important;height:277px!important;max-width:301px!important}
 
 </style>
-</head>
+<style>
+#rev_slider_1_1_wrapper{display:none!important}
+.hero-video{position:relative;width:100%;height:784px;overflow:hidden;background:#000}
+.hero-video-media{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-video-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.38) 55%,rgba(0,0,0,.6))}
+.hero-video-content{position:relative;z-index:2;max-width:1348px;height:100%;margin:0 auto;padding:120px 24px 60px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;color:#fff;text-align:left}
+.hero-video-kicker{color:#f9b305;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:18px;margin-bottom:14px}
+.hero-video-title{font-family:'Mulish',sans-serif;font-size:60px;line-height:1.1;font-weight:800;text-transform:uppercase;margin:0 0 22px}
+.hero-video-desc{max-width:720px;font-size:18px;line-height:1.6;margin:0 0 34px}
+.hero-video-actions{display:flex;gap:16px;flex-wrap:wrap}
+.hv-btn{display:inline-block;padding:14px 32px;border-radius:2px;font-weight:700;text-transform:capitalize;font-size:15px;text-decoration:none;transition:background .2s,color .2s}
+.hv-btn-primary{background:#f9b305;color:#000}
+.hv-btn-primary:hover{background:#fff}
+.hv-btn-secondary{background:#fff;color:#000}
+.hv-btn-secondary:hover{background:#f9b305}
+@media (max-width:1024px){.hero-video{height:647px}.hero-video-title{font-size:46px}.hero-video-desc{font-size:16px}}
+@media (max-width:778px){.hero-video{height:492px}.hero-video-content{padding:100px 20px 40px}.hero-video-title{font-size:34px}.hero-video-kicker{font-size:15px}.hero-video-desc{font-size:15px;max-width:100%}}
+@media (max-width:480px){.hero-video{height:540px}.hero-video-title{font-size:28px}.hero-video-desc{font-size:14px;margin-bottom:24px}.hv-btn{padding:12px 22px;font-size:14px}}
+</style></head>
 
 <body class="home wp-singular page-template-default page page-id-1177 wp-custom-logo wp-embed-responsive wp-theme-code4rest wp-child-theme-logifast-child footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-unboxed content-vertical-padding-hide non-transparent-header mobile-non-transparent-header code4rest-elementor-colors elementor-default elementor-kit-8 elementor-page elementor-page-1177">
 <div class="pageloader"></div>
@@ -326,7 +344,21 @@ html{scroll-behavior:smooth}[id]{scroll-margin-top:95px}
 		
 <div class="entry-content single-content">
 			<div data-elementor-type="wp-page" data-elementor-id="1177" class="elementor elementor-1177">
-						<div id="inicio" class="elementor-section elementor-top-section elementor-element elementor-element-1982ae4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1982ae4" data-element_type="section">
+						<div id="inicio" class="elementor-section elementor-top-section elementor-element elementor-element-1982ae4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1982ae4" data-element_type="section"><div class="hero-video">
+  <video class="hero-video-media" autoplay muted loop playsinline preload="auto">
+    <source src="assets/jaca.mp4" type="video/mp4">
+  </video>
+  <div class="hero-video-overlay"></div>
+  <div class="hero-video-content">
+    <div class="hero-video-kicker">Estudios técnicos y ambientales</div>
+    <h1 class="hero-video-title">Líder en supervisión ambiental<br>y estudios hidrográficos</h1>
+    <p class="hero-video-desc">Realizamos inspecciones, estudios ambientales, supervisión, reforestación, paisajismo e hidrografía para garantizar el atraque seguro de sus embarcaciones, con levantamientos topográficos de última tecnología.</p>
+    <div class="hero-video-actions">
+      <a href="#nosotros" class="hv-btn hv-btn-primary">Conoce más</a>
+      <a href="#servicios" class="hv-btn hv-btn-secondary">Nuestros servicios</a>
+    </div>
+  </div>
+</div>
 
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-81be6e0" data-id="81be6e0" data-element_type="column">
